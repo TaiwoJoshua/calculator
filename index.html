@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/css/calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="pagewrapper">
+        <div class="calculator">
+            <div class="viewarea">
+            <table>
+                <tr>
+                    <td colspan="4" id="inputLabel">0</td>
+                </tr>
+            </table>
+            </div>
+            <div class="calculator__keys">
+                <button class="all action" onclick="pushBtn(this)">+</button>
+                <button class="all action" onclick="pushBtn(this)">-</button>
+                <button class="all action" onclick="pushBtn(this)">*</button>
+                <button class="all action" onclick="pushBtn(this)">/</button>
+                <button class="all" onclick="pushBtn(this)">7</button>
+                <button class="all" onclick="pushBtn(this)">8</button>
+                <button class="all" onclick="pushBtn(this)">9</button>
+                <button class="all action" onclick="pushBtn(this)" id="remove">C</button>
+                <button class="all" onclick="pushBtn(this)">4</button>
+                <button class="all" onclick="pushBtn(this)">5</button>
+                <button class="all" onclick="pushBtn(this)">6</button>
+                <button class="all action" onclick="pushBtn(this)">(</button>
+                <button class="all" onclick="pushBtn(this)">1</button>
+                <button class="all" onclick="pushBtn(this)">2</button>
+                <button class="all" onclick="pushBtn(this)">3</button>
+                <button class="all action" onclick="pushBtn(this)">)</button>
+                <button class="all" onclick="pushBtn(this)">0</button>
+                <button class="all" onclick="pushBtn(this)">.</button>
+                <button class="all" onclick="pushBtn(this)" id="clear">AC</button>
+                <button class="all" onclick="pushBtn(this)" id="submit">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="./Assets/js/calculator.js"></script>
+</body>
+</html>
