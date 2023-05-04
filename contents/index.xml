@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapel_dues_payment_record>
+  <admin>
+    <password>$2y$12$8xVmySr/ZZ3jvpr1z7bt7O4Lr.VMbmpwPIWVqgOwRroJMg3KwSbBe</password>
+    <time>2023-05-04 13:40:02</time>
+  </admin>
+  <member id="10364">
+    <id>10364</id>
+    <name>TeeJay</name>
+    <department>Bible Study</department>
+    <newguy>Just Created Me</newguy>
+    <status>Paid</status>
+  </member>
+  <member id="10000">
+    <id>10000</id>
+    <name>Taiwo Kehinde</name>
+    <department>Drama</department>
+    <status>Paid</status>
+  </member>
+  <member id="13489">
+    <id>13489</id>
+    <name>John Doe</name>
+    <department>ushering</department>
+    <status>Paid</status>
+  </member>
+  <member id="19201">
+    <id>19201</id>
+    <name>John Doe</name>
+    <department>prayerunit</department>
+    <status>Paid</status>
+  </member>
+  <member id="12345">
+    <id>12345</id>
+    <name>Johnson Hello</name>
+    <department>biblestudy</department>
+    <status>Paid</status>
+  </member>
+    <member id="12347">
+    <id>12347</id>
+    <name>Johnson Hello</name>
+    <department>biblestudy</department>
+    <status>Paid</status>
+  </member>  
+  <member id="12348">
+    <id>12348</id>
+    <name>Johnson Hello</name>
+    <department>biblestudy</department>
+    <status>Paid</status>
+  </member>
+</chapel_dues_payment_record>
